@@ -1,0 +1,29 @@
+button{
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 15px;
+   box-shadow: 0 4px /* #00b3b3*/ #8587919c;
+  }
+  
+  button:hover {background-color: gray}
+  
+  button:active {
+    background-color: gray;
+   box-shadow: 0 1px /* #00b3b3*/  #8587919c;
+    transform: translateY(4px);
+  }
+
+  body{
+      background-image:url("background.jpg");
+      background-size: 100% 107%;
+      background-repeat: no-repeat;
+     
+  }
